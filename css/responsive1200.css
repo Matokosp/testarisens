@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@media (min-width: 1200px) {
+
+p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.7em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+
+.intro {
+	margin-top: 85px;
+}
+
+.intro h1 {
+	font-size: 1.8em;
+}
+
+.intro-marcas-img {
+	display: none;
+}
+
+.intro-marcas-img-1200 {
+	display: inline-block;
+	width: 100%;
+}
+
+.servicios-link {
+	margin: 90px 0 0 0;
+}
+
+.servicios-link div {
+	padding: 10px 20px;
+}
+
+.servicios-link img {
+	width: 70%;
+}
+
+
+.contact-info-section {
+	padding: 30px;
+	text-align: center;
+}
+
+.contact-info {
+	display: inline-block;
+	width: auto;
+	text-align: left;
+}
+
+.contact-info-icon {
+	width: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.inline {
+	display: inline-block;
+}
+
+.contact-info-text {
+	display: block;
+	width: auto;
+	box-sizing: border-box;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+
+
+
+
+
+/*NOSOTROS*/
+
+.img-nosotros {
+	display: none;
+}
+
+.img-nosotros-1200  {
+	display: inline-block;
+	width: 100%;
+}
+
+.nosotros-intro p {
+	font-size: 1.1em;
+	padding: 30px 20vw;
+}
+
+.distribucion-marcas h3 {
+	padding: 0 20vw;
+	font-size: 1.7em;
+}
+
+.bandera {
+	width: 120px;
+	padding: 20px 20px;
+}
+
+.brief {
+	padding: 20px 10vw;
+}
+
+.separation-brief {
+	height: 180px;
+}
+
+.brief-marcas {
+	width: 33%;
+	padding: 0 40px;
+}
+
+.brief-marcas p {
+	font-size: 1.3em;
+}
+
+#servicio-brief {
+	padding: 0 20vw;
+}
+
+p#servicio-brief {
+	font-size: 1.1em;
+}
+
+
+
+}
+
+

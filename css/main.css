@@ -58,9 +58,13 @@ li {
 	width: 100%;
 }
 
+.intro-marcas-img-1200 {
+	display: none;
+}
+
 
 .servicios-link {
-	margin: 30px 0;
+	margin: 40px 0 0 0;
 	text-align: center;
 }
 
@@ -78,12 +82,16 @@ li {
 	font-weight: 400;
 }
 
+.servicios-link h4 {
+	font-weight: 400;
+}
+
 #img-inverse {
 	transform: scaleX(-1);
 }
 
 .img-width {
-	margin: 30px 0;
+	margin: 30px 0 0 0;
 	text-align: center;
 }
 
@@ -99,26 +107,105 @@ li {
 
 .contact-info-section {
 	background-color: #e4e4e4;
-	text-align: center;
+	text-align: left;
 	padding: 20px 20px 40px 20px;
+	margin: 30px 0 0 0;
 }
 
 .contact-info-section p {
 	font-size: 0.7em;
 }
 
-.contact-info-section article {
-	text-align: left;
+.contact-info {
+	width: 100%;
+}
+
+.inline {
 	display: table-cell;
-	width: 33%;
+}
+
+.contact-info-text {
+	display: table-cell;
 	box-sizing: border-box;
-	padding: 0 5px;
+	padding: 0 10px;
 	vertical-align: top;
 }
 
-.contact-info-section img {
-	max-width: 100%;
-	height: 100px;
-	display: inline-block;
+.contact-info-icon {
 	margin-top: 20px;
+	box-sizing: border-box;
+	display: table-cell;
+}
+
+.contact-info-icon img {
+	width: 100px;
+	margin-top: 20px;
+}
+
+
+
+/*NOSOTROS*/
+
+
+.nosotros-intro {
+	text-align: center;
+	margin: 85px 0 40px 0;
+}
+
+.img-nosotros {
+	width: 100%;
+}
+
+.img-nosotros-1200 {
+	display: none;
+}
+
+.nosotros-intro p {
+	padding: 0 10vw;
+}
+
+
+.distribucion-marcas {
+	text-align: center;
+}
+
+.distribucion-marcas h3 {
+	color: #336699;
+	padding: 0 20px;
+	font-size: 1em;
+}
+
+.bandera {
+	width: 80px;
+}
+
+.brief {
+	padding: 20px 10px;
+}
+
+.separation-brief {
+	width: 2px;
+	height: 20px;
+	background-color: #e3e3e3;
+	float: left;
+	box-sizing: border-box;
+}
+
+.brief-marcas {
+	float: left;
+	width: 32%;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+
+.brief-marcas img {
+	max-width: 100%;
+}
+
+.brief-marcas p {
+	font-size: 0.6em;
+}
+
+#servicio-brief {
+	padding: 0 10vw;
 }
