@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+p {
+	font-size: 14px;
+}
+
+
+
+.brief-marcas p {
+	font-size: 1.2em;
+}

@@ -3,7 +3,7 @@
 @media (min-width: 1200px) {
 
 p {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 h1 {
@@ -27,6 +27,13 @@ h4 {
 	font-size: 1.8em;
 }
 
+.intro-links-marcas {
+	transition: 1s;
+}
+
+
+
+
 .intro-marcas-img {
 	display: none;
 }
@@ -34,6 +41,11 @@ h4 {
 .intro-marcas-img-1200 {
 	display: inline-block;
 	width: 100%;
+	transition: opacity 1s;
+}
+
+.intro-marcas-img-1200:hover {
+	opacity: 0.5;
 }
 
 .servicios-link {
@@ -41,11 +53,26 @@ h4 {
 }
 
 .servicios-link div {
-	padding: 10px 20px;
+	padding: 0px 0px;
+	position: relative;
+	width: 300px;
+	height: 350px;
+}
+
+.servicios-link a {
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 
 .servicios-link img {
-	width: 70%;
+	width: 250px;
+	transition: width 0.5s;
+}
+
+.servicios-link img:hover {
+	width: 260px;
+	transition-timing-function: ease;
 }
 
 
@@ -79,6 +106,14 @@ h4 {
 	box-sizing: border-box;
 	padding: 0 10px;
 	vertical-align: top;
+}
+
+.contact-info-text h4 {
+	margin: auto auto 2px auto;
+}
+
+.contact-info-text p {
+	margin: 0px auto 20px auto;
 }
 
 
@@ -126,7 +161,7 @@ h4 {
 }
 
 .brief-marcas p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 
 #servicio-brief {

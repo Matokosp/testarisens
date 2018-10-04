@@ -68,6 +68,10 @@ li {
 	text-align: center;
 }
 
+.servicios-link a{
+	color: #000;
+}
+
 .servicios-link div {
 	display: inline-block;
 	box-sizing: border-box;
@@ -131,9 +135,7 @@ li {
 	vertical-align: top;
 }
 
-.contact-info-text h4 {
-	margin: 0;
-}
+
 
 .contact-info-icon {
 	margin-top: 20px;

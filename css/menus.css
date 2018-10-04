@@ -161,7 +161,7 @@ footer p{
 
 #menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
   margin: 0;
   padding: 0 0px 0 55vw;
@@ -173,6 +173,11 @@ footer p{
   padding-top:18px;
   height: 60px;
   box-sizing: border-box;
+}
+
+#menu li:hover {
+  font-weight: 600;
+  transition: 0.2s;
 }
 
 #menu a {
@@ -199,9 +204,7 @@ footer p{
  background-color: #4d73a9;
 }
 
-.menuactive a {
- font-weight: 900;
-}
+
 
 .menu-fullwidth {
   background-color: #282828;
