@@ -131,6 +131,10 @@ li {
 	vertical-align: top;
 }
 
+.contact-info-text h4 {
+	margin: 0;
+}
+
 .contact-info-icon {
 	margin-top: 20px;
 	box-sizing: border-box;
