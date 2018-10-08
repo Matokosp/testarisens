@@ -230,6 +230,14 @@ li {
 	margin: 80px 0; 
 }
 
-.marca-producto-intro img {
+.marca-intro-icon {
 	width: 200px;
+}
+
+.marca-intro-img {
+	width: 100%;
+}
+
+.marca-intro-text {
+	padding: 0 30px;
 }
