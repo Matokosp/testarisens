@@ -177,6 +177,7 @@ footer p{
 
 #menu li:hover {
   font-weight: 600;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -263,6 +264,7 @@ li#icon-rrss-menu {
   top: 0px;
   z-index: -5;
   box-sizing: border-box;
+  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
