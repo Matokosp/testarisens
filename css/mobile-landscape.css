@@ -58,4 +58,8 @@ li#icon-rrss-menu {
  .fa-linkedin {
   padding-top: 0px;
 }
+
+#dropdown-content {
+  display: none;
+}
 }
