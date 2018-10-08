@@ -222,6 +222,24 @@ li#icon-rrss-menu {
   font-weight: 400;
 }*/
 
+
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  margin: 0;
+  padding: 0 0px 0 55vw;
+  z-index: 99;
+}
+
 #dropdown:hover {
   background-color: #6699cc;
 }
@@ -254,23 +272,6 @@ li#icon-rrss-menu {
   text-align: left;
   color: #000;
   font-weight: 400;
-}
-
-
-
-}
-
-
-
-@media (min-width: 1200px) {
-
-#menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  text-align: center;
-  margin: 0;
-  padding: 0 0px 0 55vw;
-  z-index: 99;
 }
 
 }
