@@ -41,6 +41,7 @@ h4 {
 .intro-marcas-img-1200 {
 	display: inline-block;
 	width: 100%;
+	-webkit-transition: opacity 1s;
 	transition: opacity 1s;
 }
 
@@ -67,6 +68,7 @@ h4 {
 
 .servicios-link img {
 	width: 250px;
+	-webkit-transition: width 0.5s;
 	transition: width 0.5s;
 }
 
