@@ -3,7 +3,7 @@
 @media (min-width: 1200px) {
 
 p {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 h1 {
@@ -190,6 +190,34 @@ p#servicio-brief {
 
 
 /*MARCAS INTRO*/
+
+.marca-producto-intro {
+	margin-top: 70px;
+}
+
+.intro-img {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.marca-intro-img {
+	width: 100%;
+}
+
+
+.marca-intro-text {
+	float: left;
+	text-align: left;
+	width: 50%;
+	padding: 0 80px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.marca-intro-text h1 {
+	margin: 0;
+}
 
 .producto-item {
 	width: 25%;

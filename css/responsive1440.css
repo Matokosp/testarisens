@@ -3,12 +3,28 @@
 @media (min-width: 1440px) {
 
 p {
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.4em;
 }
-
 
 
 .brief-marcas p {
 	font-size: 1.2em;
+}
+
+
+
+/*MARCAS INTRO*/
+
+.marca-producto-intro {
+	margin-top: 80px;
+}
+
+.marca-intro-icon {
+	width: 250px;
+}
+
+.marca-intro-text {
+	padding: 0 90px;
 }
 }
