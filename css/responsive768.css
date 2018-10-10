@@ -10,7 +10,21 @@ h1 {
 	font-size: 1.7em;
 }
 
+.contact-info-section {
+	text-align: center;
+}
 
+.contact-info-icon {
+	display: inline-block;
+}
+
+.inline {
+	display: block;
+}
+
+.contact-info-text {
+	display: inline-block;
+}
 
 
 .img-480, .img-1200 {
