@@ -276,3 +276,41 @@ li {
 	font-size: 1.1em;
 }
 
+
+
+/*M.I.R*/
+
+.caracteristicas-mir-container {
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #e6e7e8;
+}
+
+.caracteristicas-mir {
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.caracteristica-item {
+	padding: 20px 0;
+	width: 100%;
+	display: inline-block;
+}
+
+.caracteristica-item p {
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.ticket {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.ticket img {
+	width: 30px;
+}
