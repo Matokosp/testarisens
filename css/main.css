@@ -40,7 +40,9 @@ li {
 }
 
 
-
+.img-768, .img-1200 {
+	display: none;
+}
 
 
 

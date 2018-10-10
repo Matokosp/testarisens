@@ -19,6 +19,18 @@ h4 {
 }
 
 
+.img-480, .img-768 {
+	display: none;
+}
+
+.img-1200 {
+	display: inline-block;
+}
+
+
+
+/*INTRO*/
+
 .intro {
 	margin-top: 85px;
 }
@@ -172,6 +184,15 @@ h4 {
 
 p#servicio-brief {
 	font-size: 1.1em;
+}
+
+
+
+
+/*MARCAS INTRO*/
+
+.producto-item {
+	width: 25%;
 }
 
 

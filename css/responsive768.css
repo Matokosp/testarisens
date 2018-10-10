@@ -13,7 +13,13 @@ h1 {
 
 
 
+.img-480, .img-1200 {
+	display: none;
+}
 
+.img-768 {
+	display: inline-block;
+}
 
 
 
