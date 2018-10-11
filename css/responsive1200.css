@@ -236,6 +236,29 @@ p#servicio-brief {
 	width: 50%;
 }
 
+.ventajas-section {
+	margin: 50px 0 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 10vw;
+}
+
+.ventajas-item {
+	width: 33.3%;
+	padding: 30px 40px;
+}
+
+.text-width {
+	padding: 20px 10vw;
+}
+
+.seriee-container-intro-flex {
+	display: flex;
+}
+
+.seriee-container-intro-flex .caracteristica-item {
+	width: 100%;
+}
 
 
 }

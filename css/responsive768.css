@@ -49,11 +49,26 @@ h1 {
 }
 
 
+.container-producto-layout {
+	padding: 0 100px;
+}
+
+
 
 /*M.I.R*/
 
 .caracteristicas-mir {
 	padding: 0 120px;
+}
+
+.seriee-container-intro {
+	padding: 20px 100px;
+}
+
+.text-width {
+	text-align: center;
+	padding: 20px 100px;
+	margin: 20px 0;
 }
 
 }
