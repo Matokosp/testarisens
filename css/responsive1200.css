@@ -3,7 +3,7 @@
 @media (min-width: 1200px) {
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 h1 {
@@ -249,12 +249,18 @@ p#servicio-brief {
 }
 
 .text-width {
-	padding: 20px 10vw;
+	padding: 40px 20vw;
 }
 
 .seriee-container-intro-flex {
 	display: flex;
+	padding: 0 10vw;
 }
+
+.seriee-container-intro-flex img {
+	margin: 0 auto;
+}
+
 
 .seriee-container-intro-flex .caracteristica-item {
 	width: 100%;
