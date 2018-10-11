@@ -39,8 +39,21 @@ h1 {
 
 /*INTRO MARCAS*/
 
+.marca-intro-text {
+	padding: 0 90px;
+}
+
+
 .producto-item h3 {
 	font-size: 1.4em;
+}
+
+
+
+/*M.I.R*/
+
+.caracteristicas-mir {
+	padding: 0 120px;
 }
 
 }

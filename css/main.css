@@ -44,6 +44,13 @@ li {
 	display: none;
 }
 
+
+
+
+
+
+/*SECCIONES REPRODUCIBLES*/
+
 .img-width {
 	margin: 30px 0 0 0;
 	text-align: center;
@@ -71,6 +78,29 @@ li {
 	width: 100%;
 	height: 100%;
 }
+
+
+.text-width {
+	background-color: #e6e7e8;
+	text-align: center;
+	padding: 20px 30px;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+.no-margin {
+	margin: 0;
+}
+
+
+
 
 
 
@@ -329,4 +359,17 @@ li {
 
 .ticket img {
 	width: 30px;
+}
+
+
+
+
+
+
+/*UNIVERSAL ROBOTS*/
+
+
+
+.ur-video-margin {
+	margin: 0 0 20px 0;
 }

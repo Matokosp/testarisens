@@ -219,8 +219,21 @@ p#servicio-brief {
 	margin: 0;
 }
 
+
+.container-producto-layout {
+	padding: 0 100px;
+}
+
 .producto-item {
 	width: 25%;
+}
+
+
+/*M.I.R*/
+
+.caracteristica-item {
+	padding: 20px 40px;
+	width: 50%;
 }
 
 
