@@ -369,7 +369,46 @@ li {
 /*UNIVERSAL ROBOTS*/
 
 
+.ventajas-section {
+	margin: 30px 0 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20px;
+}
 
-.ur-video-margin {
-	margin: 0 0 20px 0;
+.ventajas-item {
+	text-align: center;
+	width: 50%;
+	padding: 10px;
+}
+
+.ventajas-item h2 {
+	margin: 0 auto;
+	color: #fff;
+	width: 50px;
+	background-color: #4d73a9;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.ventajas-item h4 {
+	color: #4d73a9;
+	font-weight: 600;
+}
+
+.ventajas-item p {
+	text-align: left;
+}
+
+.seriee-container-intro {
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #e6e7e8;
+}
+
+.ur-seriee-caracteristica {
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
 }
