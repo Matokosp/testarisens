@@ -254,16 +254,30 @@ p#servicio-brief {
 
 .seriee-container-intro-flex {
 	display: flex;
-	padding: 0 10vw;
+	margin: 0 10vw;
 }
 
 .seriee-container-intro-flex img {
-	margin: 0 auto;
+	margin: 0;
 }
 
+.seriee-img {
+	width: 35vw;
+}
+
+.seriee-img img {
+	max-width: 100%;
+}
+
+.ur-seriee-caracteristica {
+	display: block;
+	align-self: center;
+
+}
 
 .seriee-container-intro-flex .caracteristica-item {
-	width: 100%;
+	width: 35vw;
+	display: block;
 }
 
 
