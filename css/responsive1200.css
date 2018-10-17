@@ -323,6 +323,22 @@ p#servicio-brief {
 	padding: 0 15vw;
 }
 
+.flex-direction-nav .flex-next {
+	right: 20px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+	right: 40px;
+}
+
+.flex-direction-nav .flex-prev {
+	left: 20px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+	left: 40px;
+}
+
 
 }
 
