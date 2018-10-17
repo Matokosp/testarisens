@@ -285,6 +285,45 @@ p#servicio-brief {
 }
 
 
+
+
+
+/*SERVIVICIOS*/
+
+.capacitaciones__title img {
+	width: 170px;
+}
+
+.simulacion__title img {
+	width: 150px;
+}
+
+.servicios__capacitaciones {
+	padding: 0 5vw;
+}
+
+.capacitaciones__item {
+	padding: 0 20px;
+	flex-wrap: wrap;
+}
+
+.capacitaciones__item h3 {
+	font-size: 1.3em;
+}
+
+.capacitaciones__item h4 {
+	text-align: left;
+}
+
+.simulacion__title h2 {
+	font-size: 1.5em;
+}
+
+.simulacion__text {
+	padding: 0 15vw;
+}
+
+
 }
 
 

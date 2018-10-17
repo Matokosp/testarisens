@@ -10,9 +10,10 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+     <!-- CSS Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
 
     <link rel="stylesheet" type="text/css" href="css/menus.css">
     <link rel="stylesheet" type="text/css" href="css/mobile-landscape.css">
@@ -21,6 +22,9 @@
     <link rel="stylesheet" type="text/css" href="css/responsive992.css">
     <link rel="stylesheet" type="text/css" href="css/responsive1200.css">
     <link rel="stylesheet" type="text/css" href="css/responsive1440.css">
+
+     <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
     
 </head>
 <body>
@@ -84,11 +88,103 @@
 		</section>
 	</nav>
 
-<section class="servicios__header">
-	<img src="servicios-icon-1-1.png">
-	<h2>Capacitaciones</h2>
+<section class="servicios__capacitaciones">
+	<div class="capacitaciones__title">
+		<img src="images/servicios-icon-1-1.png">
+		<h2>Capacitaciones</h2>
+	</div>
+	<div class="capacitaciones__container">
+		<div class="capacitaciones__item">
+			<h2>1</h2>
+			<h3>Curso Básico UR</h3>
+			<h4>Temario:</h4>
+			<ol>
+				<li>Hardware</li>
+				<li>Comienzo</li>
+				<li>Comandos Básicos 1</li>
+				<li>Comandos Básicos 2</li>
+				<li>Comandos Avanzados 1</li>
+				<li>Comandos Avanzados 2</li>
+				<li>Comandos Avanzados 3</li>
+				<li>Wizards</li>
+				<li>Modbus TCP</li>
+				<li>Servicio / Mantenimiento</li>
+				<li>Estándares de Seguridad</li>
+				<li>Adjustable Safety</li>
+			</ol>
+		</div>
+		<div class="capacitaciones__item">
+			<h2>2</h2>
+			<h3>Curso Avanzado Universal Robots</h3>
+			<h4>Temario:</h4>
+			<ol>
+				<li>UR Script</li>
+				<li>Variables</li>
+				<li>Sistema de coordenadas</li>
+				<li>Uso Avanzado de PCH</li>
+				<li>Modbus Server</li>
+				<li>FTP Server</li>
+				<li>Dashboard Server</li>
+				<li>Interfaces de clientes</li>
+				<li>Comunication Socket</li>
+				<li>Solución de problemas</li>
+			</ol>
+		</div>
+		<div class="capacitaciones__item">
+			<h2>3</h2>
+			<h3>Curso Robotiq</h3>
+			<h4>Temario:</h4>
+			<ol>
+				<li>Conexionado y cableado</li>
+				<li>Instalación Software</li>
+				<li>Programación Gripper</li>
+				<li>Integración visión artificial</li>
+				<li>Integración sensor de fuerza</li>
+			</ol>
+		</div>
+	</div>
 </section>
 
+<section class="simulacion__section">
+	<div class="simulacion__title">
+		<img src="images/servicios-icon-2-2.png">
+		<h2>Simulación Robótica:</h2>
+	</div>
+	<div class="simulacion__text">
+		<p>La simulación robótica le ayudara a desarrollar modelos, probarlos y optimizarlos antes de realizar la puesta en marcha de una célula robotizada, garantizando así el correcto funcionamiento de una instalación antes de&nbsp;implantarla.
+			<br><br>
+		Podrá hacer la comprobación de alcances del robot ayudándole a escoger el modelo de robot adecuado y ayudando en la definición de la ubicación del resto de&nbsp;equipos.
+		    <br><br>
+		Por otra parte, gracias a la simulación robótica, podrá hacer el programa del robot antes del montaje acelerando la puesta en marcha de la&nbsp;instalación.
+		    <br><br>
+		Ofrecemos servicios de simulación en Robot Studio para robots ABB y simulación de otras marcas de robot en&nbsp;RoboDK.
+		</p>
+	</div>
+</section>
+
+<section class="video-width">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sjle_ZI4elo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+
+<div class="flexslider">
+	<ul class="slides">
+    	<li>
+    		<img class="img-480" src="images/robotiq-marca-intro.jpg"/>
+  	    	<img class="img-768" src="images/robotiq-marca-intro-768.jpg"/>
+  	    	<img class="img-1200" src="images/robotiq-marca-intro-1200.jpg"/>
+  	    </li>
+  	    <li>
+  	    	<img class="img-480" src="images/product-mir-100.jpg"/>
+  	    	<img class="img-768" src="images/product-mir-100-768.jpg"/>
+  	    	<img class="img-1200" src="images/product-mir-100-1200.jpg"/>
+  	    </li>
+  	    <li>
+  	    	<img class="img-480" src="images/mir-marca-intro.jpg"/>
+  	    	<img class="img-768" src="images/mir-marca-intro-768.jpg"/>
+  	    	<img class="img-1200" src="images/mir-marca-intro-1200.jpg"/>
+  	    </li>
+	</ul>
+</div>
 
 <footer>
 	<p>www.arisens.cl</p>
@@ -98,8 +194,32 @@
 
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
 
 <!-- MENU SCRIPT -->
 <script type="text/javascript" src="js/menus.js"></script>
+
+<!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+<!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
 </body>
 </html>

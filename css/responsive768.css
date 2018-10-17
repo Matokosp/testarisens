@@ -71,4 +71,28 @@ h1 {
 	margin: 20px 0;
 }
 
+
+
+
+/*SERVICIOS*/
+
+.capacitaciones__container {
+	display: flex;
+}
+
+.capacitaciones__item {
+	width: 100%;
+	padding: 0 10px;
+	flex-wrap: wrap;
+}
+
+.simulacion__section  {
+	margin-top: 50px;
+}
+
+.simulacion__text {
+	padding: 0 100px;
+}
+
+
 }
