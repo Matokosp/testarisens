@@ -231,6 +231,10 @@ p#servicio-brief {
 
 /*M.I.R*/
 
+.caracteristicas-mir-container {
+	padding: 50px 0;
+}
+
 .caracteristica-item {
 	padding: 20px 40px;
 	width: 50%;
