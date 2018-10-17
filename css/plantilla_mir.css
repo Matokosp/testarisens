@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+/*PLANTILLA PRODUCTOS MIR*/
+
+.icon-product {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.productomir__slider {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.flex-control-paging li a {
+	width: 8px;
+	height: 8px;
+}
+
+.flex-direction-nav a:before {
+	font-size: 20px;
+	color: #9a9a9a;
+}
+
+.productomir__description {
+	text-align: center;
+	padding: 0 20px;
+}
+
+.productomir__description h3 {
+	color: #4d73aa;
+}
+
+.description__fichatecnica img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+.description__fichatecnica h4 {
+	display: inline;
+	padding: 10px;
+	border-radius: 50px;
+	background-color: #4d73aa;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	vertical-align: middle;
+}
+
+.productomir__caracteristicas {
+	text-align: center;
+	margin: 60px 0 0 0;
+}
+
+.caracteristicas__title img {
+	width: 100px;
+	vertical-align: middle;
+}
+
+.caracteristicas__title h2 {
+	font-weight: 600;
+	display: inline;
+	vertical-align: middle;
+}
+
+.especificacionesmir__section{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.especificaciones__title img {
+	width: 70px;
+	vertical-align: middle;
+}
+
+.especificaciones__title h2 {
+	font-weight: 600;
+	vertical-align: middle;
+	display: inline;
+}
+
+
+.especificacionesmir__table {
+	border-collapse: collapse;
+	box-sizing: border-box;
+	text-align: left;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.especificacionesmir__table td {
+	font-size: 0.8em;
+	vertical-align: top;
+	padding: 8px 20px;
+	box-sizing: border-box;
+}
+
+.especificacionesmir__table tr:nth-child(odd) td {
+	background-color: #f2f2f2;
+}
+
+
+/*MEDIA QUERY FOR TABLETS*/
+
+
+
+@media (min-width: 768px) {
+
+.especificacionesmir__table {
+	margin-top: 60px;
+}
+
+.especificacionesmir__table td {
+	font-size: 1em;
+	padding: 15px 100px;
+}
+
+}
+
+
+/*MEDIA QUERY FOR DESKTOPS*/
+
+
+
+@media (min-width: 1200px) {
+
+.productomir__slider {
+	width: 45vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.productomir__description {
+	width: 45vw;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.productomir__description {
+	padding: 0 10vw;
+}
+
+.especificacionesmir__table td {
+	padding: 10px 80px 10px 150px;
+}
+
+}
