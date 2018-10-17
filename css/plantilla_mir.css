@@ -128,14 +128,15 @@
 .productomir__slider {
 	width: 45vw;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
+	margin-top: 70px;
 }
 
 .productomir__description {
 	width: 45vw;
 	text-align: left;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 .productomir__description {
