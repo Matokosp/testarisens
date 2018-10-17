@@ -27,4 +27,19 @@ p {
 .marca-intro-text {
 	padding: 0 90px;
 }
+
+
+
+
+/*SERVICIOS*/
+
+.servicios__capacitaciones {
+	padding: 0 15vw;
+}
+
+.flex-direction-nav a:before {
+	color: #9a9a9a;
+	font-size: 30px;
+}
+
 }
