@@ -23,12 +23,12 @@
 	color: #9a9a9a;
 }
 
-.productomir__description {
+.producto-plantilla__description {
 	text-align: center;
 	padding: 0 20px;
 }
 
-.productomir__description h3 {
+.producto-plantilla__description h3 {
 	color: #4d73aa;
 }
 
@@ -48,7 +48,7 @@
 	vertical-align: middle;
 }
 
-.productomir__caracteristicas {
+.productoplantilla__caracteristicas {
 	text-align: center;
 	margin: 60px 0 0 0;
 }
@@ -106,6 +106,32 @@
 
 .flexslider .slides .img-1200 {
 	display: none;
+}
+
+
+
+
+/*PLANTILLA UR*/
+
+.especificacionesur__section {
+	text-align: center;
+}
+
+.especificacionesur__item {
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+	margin-top: 30px;
+}
+
+.especificacionur__value {
+	background-color: #4d73aa;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	color: #fff;
+	padding-top: 40px;
+	display: inline-block;
 }
 
 
