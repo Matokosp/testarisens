@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0;
     background: none;
-    z-index: 10;
+    z-index: 99;
 }
 
 #menu{
