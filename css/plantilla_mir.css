@@ -115,6 +115,18 @@
 
 .especificacionesur__section {
 	text-align: center;
+	margin: 60px 0 20px 0;
+}
+
+.especificacionesur__title img {
+	width: 70px;
+	vertical-align: middle;
+}
+
+.especificacionesur__title h2 {
+	font-weight: 600;
+	vertical-align: middle;
+	display: inline;
 }
 
 .especificacionesur__item {
@@ -132,6 +144,11 @@
 	color: #fff;
 	padding-top: 40px;
 	display: inline-block;
+}
+
+.especificacionur__category {
+	margin-top: 15px;
+	font-weight: 600;
 }
 
 
