@@ -158,6 +158,10 @@
 
 @media (min-width: 768px) {
 
+.producto-plantilla__description {
+	padding: 0 10vw	;
+}
+
 .especificacionesmir__table {
 	margin-top: 60px;
 }
@@ -174,13 +178,25 @@
 .flexslider .slides .img-768 {
 	display: block;
 }
+}
 
+
+@media (min-width: 992px) {
+
+.especificacionesur__item {
+	width: 24%;
+	margin: 60px 0;
+}
+
+}
 
 /*MEDIA QUERY FOR DESKTOPS*/
 
 
 
 @media (min-width: 1200px) {
+
+/*MIR*/
 
 .productomir__slider {
 	width: 45vw;
@@ -189,15 +205,22 @@
 	margin-top: 70px;
 }
 
-.productomir__description {
+
+.producto-plantilla__description {
 	width: 45vw;
 	text-align: left;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0 30px;
 }
 
-.productomir__description {
-	padding: 0 10vw;
+.description__fichatecnica {
+	margin-top: 50px;
+}
+
+.description__fichatecnica a {
+	display: block;
+	margin-top: 20px;
 }
 
 .caracteristicas__listsection {
@@ -220,6 +243,18 @@
 
 .flexslider .slides .img-1200 {
 	display: block;
+}
+
+/*UR*/
+
+.especificacionur__value {
+	background-color: #4d73aa;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	color: #fff;
+	padding-top: 90px;
+	display: inline-block;
 }
 
 }
