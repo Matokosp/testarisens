@@ -158,6 +158,32 @@
 }
 
 
+
+/*PLANTILLA ROBOTIQ*/
+
+.caracteristicas__robotiq-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 30px;
+	margin-top: 20px;
+}
+
+.caracteristicas__robotiq--item {
+	width: 50%;
+	padding: 0 10px;
+	text-align: left;
+}
+
+.caracteristicas__robotiq--item h3 {
+	color: #4d73aa;
+	font-size: 1.1em;
+}
+
+.robotiq__list li {
+	padding: 5px 0;
+	font-size: 0.85em;
+}
+
 /*MEDIA QUERY FOR TABLETS*/
 
 
