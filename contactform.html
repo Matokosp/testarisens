@@ -87,59 +87,104 @@
 			<h1>Contáctenos</h1>
 			<img src="images/contacto-icon.png">
 			<p>¿Te interesan nuestros productos, necesitas asistencia técnica o quieren probar alguna de nuestras unidades de demo?
-				¡ Escríbenos un mensaje !</p>
+				¡ Escríbenos un&nbsp;mensaje !</p>
 	    </div>
-		<form name="contactform" method="post" action="send_form_email.php">
-			<table width="450px">
+		<form class="formulario" name="contactform" method="post" action="send_form_email.php">
+			<table class="tabla__formulario" width="100%">
 				<tr>
-				 <td valign="top">
+				 <!-- <td valign="top">
 				  <label for="first_name">* Nombre Completo</label>
-				 </td>
+				 </td> -->
 				 <td valign="top">
-				  <input  type="text" name="first_name" maxlength="50" size="30">
+				  <input class="formulario__input" placeholder="&nbsp;* Nombre Completo" type="text" name="first_name" maxlength="50" size="">
 				 </td>
 				</tr>
 				<tr>
-				 <td valign="top"">
+				<!--  <td valign="top"">
 				  <label for="last_name">* Email</label>
-				 </td>
+				 </td> -->
 				 <td valign="top">
-				  <input  type="text" name="last_name" maxlength="50" size="30">
+				  <input class="formulario__input" placeholder="&nbsp;* Email" type="text" name="last_name" maxlength="50" size="">
 				 </td>
 				</tr>
 				<tr>
-				 <td valign="top">
+				<!--  <td valign="top">
 				  <label for="email">* Empresa</label>
-				 </td>
+				 </td> -->
 				 <td valign="top">
-				  <input  type="text" name="email" maxlength="80" size="30">
+				  <input class="formulario__input" placeholder="&nbsp;* Empresa" type="text" name="email" maxlength="50" size="">
 				 </td>
 				</tr>
 				<tr>
-				 <td valign="top">
+				<!--  <td valign="top">
 				  <label for="telephone">Número Telefónico</label>
-				 </td>
+				 </td> -->
 				 <td valign="top">
-				  <input  type="text" name="telephone" maxlength="30" size="30">
+				  <input class="formulario__input" placeholder="&nbsp;&nbsp; Número Telefónico" type="text" name="telephone" maxlength="30" size="">
 				 </td>
 				</tr>
 				<tr>
-				 <td valign="top">
+				<!--  <td valign="top">
 				  <label for="comments">* Mensaje</label>
-				 </td>
+				 </td> -->
 				 <td valign="top">
-				  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+				  <textarea placeholder="&nbsp; * Mensaje" name="comments" maxlength="1000" cols="" rows="6"></textarea>
 				 </td>
 				</tr>
 				<tr>
-				 <td colspan="2" style="text-align:center">
-				  <input type="submit" value="Submit"> 
+				 <td colspan="2" style="text-align:right">
+				  <input class="tabla__formulario--submit" type="submit" value="Enviar"> 
 				 </td>
 				</tr>
 			</table>
-		</form>
-		
+		</form>		
 	</section>
+
+	<section class="contact-info-section">
+		<div class="contact-info">
+			<article class="contact-info-icon">
+				<img src="images/bodega-icon.png">
+			</article>
+			<div class="inline">
+			<article class="contact-info-text">
+				<h4>Oficina</h4>
+				<p>Apoquindo 4501<br>
+				Piso 12 Of. 1220 <br>
+				Las Condes - Santiago, Chile</p>
+			</article>
+			<article class="contact-info-text">
+				<h4>Bodega</h4>
+				<p>Bodega 1.8 NUCLEO OCHAGAVI<br>
+				Club Hípico 4676, Pedro Aguirre Cerda. <br>
+			    Santiago, Chile.</p>
+			</article>			
+			</div>
+		</div>
+
+		<div class="contact-info">
+			<article class="contact-info-icon">
+				<img src="images/management-icon.png">
+			</article>
+			<div class="inline">
+			<article class="contact-info-text">
+				<h4>Resp. Comercial</h4>
+				<p>Isidoro Gomez<br>
+				igomez@arisens.cl <br>
+				   +569 931 975 128</p>
+			</article>
+			<article class="contact-info-text">
+				<h4>Product Manager</h4>
+				<p>Eneko Basoa<br>
+				ebasoa@arisens.cl <br>
+				   +569 4229 9196</p>
+			</article>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>www.arisens.cl</p>
+	</footer>
 
 
 
