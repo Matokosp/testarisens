@@ -357,6 +357,7 @@ p#servicio-brief {
 	padding: 0 10%;
 	vertical-align: middle;
 	margin-bottom: 100px;
+	height: 45vh;
 }
 
 .contacto__intro img {
@@ -377,6 +378,18 @@ p#servicio-brief {
 	display: inline-block;
 	vertical-align: middle;
 	margin-bottom: 100px;
+	height: 45vh;
+}
+
+.formulario__input {
+	width: 100%;
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.tabla__formulario textarea {
+	width: 100%;
+	padding: 15px;
 }
 
 }
