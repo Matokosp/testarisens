@@ -345,6 +345,40 @@ p#servicio-brief {
 }
 
 
+
+
+
+/*CONTACTO*/
+
+.contacto__intro {
+	text-align: center;
+	width: 45%;
+	display: inline-block;
+	padding: 0 10%;
+	vertical-align: middle;
+	margin-bottom: 100px;
+}
+
+.contacto__intro img {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contacto__intro p {
+	display: block;
+	width: auto;
+	vertical-align: middle;
+	margin-left: 0px;
+}
+
+.formulario {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 100px;
+}
+
 }
 
 
