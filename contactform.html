@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Arisens | Robotica</title>
+	<title>Arisens | Contacto</title>
 	<meta charset="utf-8">
 	<meta name="author" content="Matias Salinas" />
     <meta name="description" content="Arisens tienda de robotica accesorios y tecnologia" />
@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
 
@@ -68,7 +66,7 @@
 		<section class="menu-fullwidth">
 		   <a href="index.html"><img class="logo-text-menu-fullwidth" src="images/logo-text.png"></a>
 			<ul id="menu">
-				<li class="menuactive"><a href="index.html">Home</a></li>  
+				<li ><a href="index.html">Home</a></li>  
 			    <li ><a href="nosotros.html">Nosotros</a></li>
 			    <li id="dropdown"><a href="javascript:void(0)">Productos</a>
 			    	<div id="dropdown-content">
@@ -78,115 +76,79 @@
 		            </div>
 		        </li>
 			    <li ><a href="servicios.html">Servicios</a></li>    
-			    <li ><a href="contactform.html">Contacto</a></li>
+			    <li class="menuactive"><a href="contactform.html">Contacto</a></li>
 			    <li id="icon-rrss-menu"><a href="https://www.linkedin.com/company/arisens-ingenet-chile-spa" target="_blank"> <i class="fab fa-linkedin"></i> </a></li>
 			</ul>
 		</section>
 	</nav>
 
-	<section class="intro">
-		<h1>Soluciones para <br>
-			<b>Industria 4.0</b>
-		</h1>
-		<div class="intro-links-marcas">
-			<div class="intro-marcas">
-				<a href="mir.html">
-				<img class="intro-marcas-img" src="images/home-mir.jpg">
-				<img class="intro-marcas-img-1200" src="images/home-mir-1200.jpg">
-				</a>
-			</div>
-			<div class="intro-marcas">
-				<a href="universalrobots.html">
-				<img class="intro-marcas-img" src="images/home-ur.jpg">
-				<img class="intro-marcas-img-1200" src="images/home-ur-1200.jpg">
-				</a>
-			</div>
-			<div class="intro-marcas">
-				<a href="robotiq.html">
-				<img class="intro-marcas-img" src="images/home-robotiq.jpg">
-				<img class="intro-marcas-img-1200" src="images/home-robotiq-1200.jpg">
-				</a>
-			</div>
-		</div>
+	<section class="formulario__section">
+		<div class="contacto__intro">
+			<h1>Contáctenos</h1>
+			<img src="images/contacto-icon.png">
+			<p>¿Te interesan nuestros productos, necesitas asistencia técnica o quieren probar alguna de nuestras unidades de demo?
+				¡ Escríbenos un mensaje !</p>
+	    </div>
+		<form name="contactform" method="post" action="send_form_email.php">
+			<table width="450px">
+				<tr>
+				 <td valign="top">
+				  <label for="first_name">* Nombre Completo</label>
+				 </td>
+				 <td valign="top">
+				  <input  type="text" name="first_name" maxlength="50" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top"">
+				  <label for="last_name">* Email</label>
+				 </td>
+				 <td valign="top">
+				  <input  type="text" name="last_name" maxlength="50" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top">
+				  <label for="email">* Empresa</label>
+				 </td>
+				 <td valign="top">
+				  <input  type="text" name="email" maxlength="80" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top">
+				  <label for="telephone">Número Telefónico</label>
+				 </td>
+				 <td valign="top">
+				  <input  type="text" name="telephone" maxlength="30" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top">
+				  <label for="comments">* Mensaje</label>
+				 </td>
+				 <td valign="top">
+				  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+				 </td>
+				</tr>
+				<tr>
+				 <td colspan="2" style="text-align:center">
+				  <input type="submit" value="Submit"> 
+				 </td>
+				</tr>
+			</table>
+		</form>
+		
 	</section>
 
-	<div class="clearfix"></div>
-
-	<section class="servicios-link">
-		<h3>Nuestros&nbsp;<b>Servicios</b></h3>
-		<div>
-			<a href="servicios.html">
-			<img class="img-servicio" src="images/servicios-icon-1.png">
-			<h4>Capacitaciones</h4>
-			</a>
-		</div>
-		<div>
-			<a href="servicios.html">
-			<img class="img-servicio" id="img-inverse" src="images/servicios-icon-2.png">
-			<h4>Simulación robótica</h4>
-			</a>
-		</div>
-	</section>
-
-	<div class="clearfix"></div>
-
-	<section class="img-width">
-		<h3>Lorem ipsum <b>dolor si et amet</b></h3>
-		<img src="images/img-prueba.png">		
-	</section>
-
-	<section class="contact-info-section">
-		<div class="contact-info">
-			<article class="contact-info-icon">
-				<img src="images/bodega-icon.png">
-			</article>
-			<div class="inline">
-			<article class="contact-info-text">
-				<h4>Oficina</h4>
-				<p>Apoquindo 4501<br>
-				Piso 12 Of. 1220 <br>
-				Las Condes - Santiago, Chile</p>
-			</article>
-			<article class="contact-info-text">
-				<h4>Bodega</h4>
-				<p>Bodega 1.8 NUCLEO OCHAGAVI<br>
-				Club Hípico 4676, Pedro Aguirre Cerda. <br>
-			    Santiago, Chile.</p>
-			</article>			
-			</div>
-		</div>
-
-		<div class="contact-info">
-			<article class="contact-info-icon">
-				<img src="images/management-icon.png">
-			</article>
-			<div class="inline">
-			<article class="contact-info-text">
-				<h4>Resp. Comercial</h4>
-				<p>Isidoro Gomez<br>
-				igomez@arisens.cl <br>
-				   +569 931 975 128</p>
-			</article>
-			<article class="contact-info-text">
-				<h4>Product Manager</h4>
-				<p>Eneko Basoa<br>
-				ebasoa@arisens.cl <br>
-				   +569 4229 9196</p>
-			</article>
-			</div>
-		</div>
-	</section>
-
-	<footer>
-		<p>www.arisens.cl</p>
-	</footer>
 
 
+<!-- JQUERY -->
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- MENU SCRIPT -->
 <script type="text/javascript" src="js/menus.js"></script>
+
 </body>
 </html>
