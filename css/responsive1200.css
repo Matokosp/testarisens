@@ -217,6 +217,7 @@ p#servicio-brief {
 
 .marca-intro-text h1 {
 	margin: 0;
+	font-size: 1.8em;
 }
 
 
@@ -228,7 +229,7 @@ p#servicio-brief {
 	width: 23%;
 	align-self: flex-start;
 	border: 1px solid #dddddd;
-	height: 450px;
+	height: 480px;
 	border-radius: 30px;
 	margin: 5px 1%;
 }
