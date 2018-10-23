@@ -294,6 +294,11 @@
 	margin-top: 20px;
 }
 
+.productoplantilla__caracteristicas {
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+
 .caracteristicas__listsection {
 	margin-top: 40px;
 	padding: 0 5vw;
@@ -301,7 +306,7 @@
 
 .especificacionesmir__section {
 	margin-top: 100px;
-	padding: 0 10vw;
+	padding: 0 0vw;
 }
 
 .especificacionesmir__table td {
@@ -332,6 +337,22 @@
 	display: inline-block;
 	font-weight: 600;
 	font-size: 1.2em;
+}
+
+
+
+/*ROBOTIQ*/
+
+.table__robotiq td {
+	padding: 10px 80px;
+	font-size: 0.7em;
+}
+
+.especificaciones__disclaimer {
+	text-align: left;
+	margin-top: 40px;
+	padding: 0 300px;
+	font-size: 0.8em;
 }
 
 }
