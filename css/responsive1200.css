@@ -370,6 +370,7 @@ p#servicio-brief {
 	width: auto;
 	display: inline-block;
 	vertical-align: middle;
+	margin-right: 55px;
 }
 
 .contacto__intro p {
