@@ -172,6 +172,7 @@
 	width: 50%;
 	padding: 0 10px;
 	text-align: left;
+	margin-top: 20px;
 }
 
 .caracteristicas__robotiq--item h3 {
@@ -188,8 +189,15 @@
 	margin-top: 30px;
 }
 
+.table__robotiq td {
+	padding: 10px 15px;
+	font-size: 0.7em;
+}
+
+
 .especificaciones__disclaimer {
 	margin-top: 40px;
+	padding: 0 30px;
 }
 
 .link__paragraph {
@@ -212,7 +220,7 @@
 
 .especificacionesmir__table td {
 	font-size: 1em;
-	padding: 15px 100px;
+	padding: 15px 0px;
 }
 
 .flexslider .slides .img-480 {
@@ -222,6 +230,20 @@
 .flexslider .slides .img-768 {
 	display: block;
 }
+
+/*ROBOTIQ*/
+
+.caracteristicas__robotiq--item {
+	width: 50%;
+	margin-top: 40px;
+}
+
+.table__robotiq td {
+	padding: 15px 25px;
+	font-size: 0.8em;
+}
+
+
 }
 
 
@@ -230,6 +252,11 @@
 .especificacionesur__item {
 	width: 24%;
 	margin: 60px 0;
+}
+
+.caracteristicas__robotiq--item {
+	width: 25%;
+	margin-top: 40px;
 }
 
 }
