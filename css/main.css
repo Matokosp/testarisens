@@ -140,7 +140,7 @@ li {
 	color: #000;
 }
 
-.servicios-link div {
+.servicios-link > div {
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 0 20px;
@@ -156,6 +156,8 @@ li {
 
 .servicios-link h4 {
 	font-weight: 400;
+	margin-top: 0px;
+	font-size: 1.2em;
 }
 
 #img-inverse {
@@ -567,7 +569,7 @@ li {
 	background-color: #e4e4e4;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	border-radius: 10px;
+	border-radius: 4px;
 }
 
 .tabla__formulario textarea {
@@ -578,7 +580,7 @@ li {
 	border: none;
 	background-color: #e4e4e4;
 	font-weight: 600;
-	border-radius: 10px;
+	border-radius: 4px;
 }
 
 .tabla__formulario--submit {
