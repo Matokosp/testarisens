@@ -225,7 +225,12 @@ p#servicio-brief {
 }
 
 .producto-item {
-	width: 25%;
+	width: 23%;
+	align-self: flex-start;
+	border: 1px solid #dddddd;
+	height: 450px;
+	border-radius: 30px;
+	margin: 5px 1%;
 }
 
 
