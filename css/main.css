@@ -567,6 +567,7 @@ li {
 	background-color: #e4e4e4;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
+	border-radius: 10px;
 }
 
 .tabla__formulario textarea {
@@ -577,6 +578,7 @@ li {
 	border: none;
 	background-color: #e4e4e4;
 	font-weight: 600;
+	border-radius: 10px;
 }
 
 .tabla__formulario--submit {
