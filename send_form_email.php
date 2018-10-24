@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "jmsalinas@uc.cl";
+    $email_to = "jmsalinas@uc.cl, ebasoa@arisens.cl, igomez@arisens.cl";
     $email_subject = "formulario contacto Arisens";
  
     function died($error) {

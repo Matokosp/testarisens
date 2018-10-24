@@ -233,7 +233,7 @@ p#servicio-brief {
 	align-self: flex-start;
 	border: 1px solid #dddddd;
 	height: 440px;
-	border-radius: 30px;
+	border-radius: 10px;
 	margin: 5px 1%;
 }
 
@@ -389,6 +389,7 @@ p#servicio-brief {
 
 .formulario__section {
 	margin-top: 20px;
+	padding-top: 50px;
 }
 
 .formulario {
@@ -397,7 +398,7 @@ p#servicio-brief {
 	vertical-align: middle;
 	margin-bottom: 100px;
 	height: 45vh;
-	margin-top: 150px;
+	margin-top: 10px;
 }
 
 .formulario__input {
