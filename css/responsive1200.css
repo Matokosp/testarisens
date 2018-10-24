@@ -232,9 +232,13 @@ p#servicio-brief {
 	width: 23%;
 	align-self: flex-start;
 	border: 1px solid #dddddd;
-	height: 480px;
+	height: 440px;
 	border-radius: 30px;
 	margin: 5px 1%;
+}
+
+.producto__item--robotiq {
+	height: 480px;
 }
 
 
