@@ -280,7 +280,7 @@
 
 .producto-plantilla__description {
 	width: 45vw;
-	text-align: left;
+	text-align: justify;
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 30px;
