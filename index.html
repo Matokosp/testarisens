@@ -131,7 +131,63 @@
 		<img src="images/img-prueba.png">		
 	</section> -->
 
-	
+	<section class="formulario__section">
+		<h1>Contáctenos</h1>
+		<div class="contacto__intro">
+			<img src="images/contacto-icon.png">
+			<p>¿Te interesan nuestros productos, necesitas asistencia técnica o quieren probar alguna de nuestras unidades de demo?
+				¡ Escríbenos un&nbsp;mensaje !</p>
+	    </div>
+		<form class="formulario" name="contactform" method="post" action="send_form_email.php">
+			<table class="tabla__formulario" width="100%">
+				<tr>
+				 <!-- <td valign="top">
+				  <label for="first_name">* Nombre Completo</label>
+				 </td> -->
+				 <td valign="top">
+				  <input class="formulario__input" placeholder="&nbsp;* Nombre Completo" type="text" name="first_name" maxlength="50" size="">
+				 </td>
+				</tr>
+				<tr>
+				<!--  <td valign="top"">
+				  <label for="last_name">* Email</label>
+				 </td> -->
+				 <td valign="top">
+				  <input class="formulario__input" placeholder="&nbsp;* Email" type="text" name="last_name" maxlength="50" size="">
+				 </td>
+				</tr>
+				<tr>
+				<!--  <td valign="top">
+				  <label for="email">* Empresa</label>
+				 </td> -->
+				 <td valign="top">
+				  <input class="formulario__input" placeholder="&nbsp;* Empresa" type="text" name="email" maxlength="50" size="">
+				 </td>
+				</tr>
+				<tr>
+				<!--  <td valign="top">
+				  <label for="telephone">Número Telefónico</label>
+				 </td> -->
+				 <td valign="top">
+				  <input class="formulario__input" placeholder="&nbsp;&nbsp; Número Telefónico" type="text" name="telephone" maxlength="30" size="">
+				 </td>
+				</tr>
+				<tr>
+				<!--  <td valign="top">
+				  <label for="comments">* Mensaje</label>
+				 </td> -->
+				 <td valign="top">
+				  <textarea placeholder="&nbsp; * Mensaje" name="comments" maxlength="1000" cols="" rows="6"></textarea>
+				 </td>
+				</tr>
+				<tr>
+				 <td colspan="2" style="text-align:right">
+				  <input class="tabla__formulario--submit" type="submit" value="Enviar"> 
+				 </td>
+				</tr>
+			</table>
+		</form>		
+	</section>
 
 	<section class="contact-info-section">
 		<div class="contact-info">
