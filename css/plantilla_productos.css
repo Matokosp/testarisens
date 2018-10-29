@@ -344,9 +344,17 @@
 
 /*ROBOTIQ*/
 
+.agarre-section-width {
+	margin-top: 0;
+}
+
+.img-agarre-width {
+	width: 60vw;
+}
+
 .table__robotiq td {
 	padding: 10px 80px;
-	font-size: 0.7em;
+	font-size: 0.9em;
 }
 
 .especificaciones__disclaimer {
