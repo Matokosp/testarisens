@@ -412,6 +412,34 @@ p#servicio-brief {
 	padding: 15px;
 }
 
+
+
+
+/*PAGINA ERROR 404*/
+
+.error-section {
+	text-align: center;
+	width: 40vw;
+	margin: 15vh auto;
+}
+
+.error-section h1 {
+	font-size: 4em;
+}
+
+.error-section p {
+	font-size: 1em;
+}
+
+.error-section a {
+	transition: 1s;
+}
+
+.error-section a:hover {
+	font-size: 1.1em;
+	background-color: #006699;
+}
+
 }
 
 
