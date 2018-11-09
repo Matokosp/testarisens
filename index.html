@@ -242,5 +242,13 @@
 
 <!-- MENU SCRIPT -->
 <script type="text/javascript" src="js/menus.js"></script>
+<script>
+	$(".intro-marcas").hover(function() {
+		$(".intro-marcas").css("opacity", "0.5");
+		$(this).css("opacity", "1");
+	}, function (){
+		$(".intro-marcas").css("opacity", "1");
+	});
+</script>
 </body>
 </html>

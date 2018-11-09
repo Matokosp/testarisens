@@ -43,8 +43,9 @@ h4 {
 	transition: 1s;
 }
 
-
-
+.intro-marcas {
+	transition: 1s;
+}
 
 .intro-marcas-img {
 	display: none;
@@ -55,10 +56,6 @@ h4 {
 	width: 100%;
 	-webkit-transition: opacity 1s;
 	transition: opacity 1s;
-}
-
-.intro-marcas-img-1200:hover {
-	opacity: 0.5;
 }
 
 .servicios-link {
